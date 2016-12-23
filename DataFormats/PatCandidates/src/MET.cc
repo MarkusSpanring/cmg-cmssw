@@ -157,7 +157,9 @@ MET::initCorMap() {
   tmpType01XY.push_back(MET::T0);
   tmpType01Smear.push_back(MET::T0);
   tmpType01SmearXY.push_back(MET::T0);
-  
+
+  tmpType1Smear.push_back(MET::Smear);
+  tmpType01Smear.push_back(MET::Smear);  
   tmpType1SmearXY.push_back(MET::Smear);
   tmpType01SmearXY.push_back(MET::Smear);
 
